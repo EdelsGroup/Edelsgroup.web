@@ -1,0 +1,21 @@
+.section__misionVision{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.section__misionVision__mision, .section__misionVision__vision{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 450px ;
+    min-height: 250px;
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--light-grey);
+    border-radius: 10px;
+    padding: 20px 50px;
+    text-align: justify;
+}

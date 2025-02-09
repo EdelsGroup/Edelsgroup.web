@@ -1,0 +1,125 @@
+{
+    "projects": [
+        {
+            "name": "CLÍNICA SANAME",
+            "description": "Se realizó la instalación de un ascensor eléctrico Gearless sin sala de máquinas, diseñado para optimizar la accesibilidad de manera segura y eficiente. El ascensor cuenta con tres paradas y una capacidad de 400 kg; Su motor gearless de imanes permanentes - sin engranajes, garantiza el bajo consumo energético, y un desplazamiento confortable.Para adaptar este ascensor a la edificación existente, se construyó estructura metálica a medida, con pasarelas para acceder desde los pisos al ascensor.",
+            "date": "2025-02-03",
+            "location": "Carrera 42 No. 5A-16, Cali",
+            "images": ["/img/projects/Edificación Existente/sáname/sáname-1.jpg", "/img/projects/Edificación Existente/sáname/sáname-2.jpg", "/img/projects/Edificación Existente/sáname/sáname-3.jpg", "/img/projects/Edificación Existente/sáname/sáname-4.jpg"],
+            "category": "Edificación Existente"
+        },
+        {
+            "name": "UNIVERSIDAD MILITAR NUEVA GRANADA",
+            "description": "Se instaló un ascensor hidráulico  sin sala de máquinas, optimizando el espacio disponible; El ascensor cuenta con cuatro paradas y una capacidad de 320 kg o cuatro personas, y cabina semi panorámica.Se adaptó este ascensor a la infraestructura existente, en un espacio super reducido,  construyendo estructura metálica a medida, con acabados en cristal panorámico.",
+            "date": "2025-02-03",
+            "location": "Transversal 3ra No. 49-00, Bogotá D.C.",
+            "images": ["/img/projects/Edificación Existente/universidad-militar/universidad-militar-1.jpg","/img/projects/Edificación Existente/universidad-militar/universidad-militar-2.jpg","/img/projects/Edificación Existente/universidad-militar/universidad-militar-3.jpg", "/img/projects/Edificación Existente/universidad-militar/universidad-militar-4.jpg"],
+            "category": "Edificación Existente"
+        },
+        {
+            "name": "CLÍNICA MATIZ",
+            "description": "Se instaló ascensor hidráulico de construcción y diseño especial para ducto irregular, y medidas reducidas, cumpliento con la normativa de seguridad.  El ascensor cuenta con tres paradas y una capacidad de 375 kg, cabina no estándar.Este ascensor innovador, se construyó a medida para ducto irregular, no convencional,  adaptándolo al único espacio disponible en la infraestructura existente, para garantizar la accesibilidad de manera segura y eficiente a los usuarios.",
+            "date": "2025-02-03",
+            "location": "Transversal 3ra No. 49-00, Bogotá D.C.",
+            "images": ["/img/projects/Edificación Existente/matiz/matiz-1.jpg", "/img/projects/Edificación Existente/matiz/matiz-2.jpg", "/img/projects/Edificación Existente/matiz/matiz-3.jpg", "/img/projects/Edificación Existente/matiz/matiz-4.jpg", "/img/projects/Edificación Existente/matiz/matiz-5.jpg"],
+            "category": "Edificación Existente"
+        },
+        {
+            "name": "EDIFICIO DOÑA MARIA",
+            "description": "Se llevó a cabo la instalación de ascensor en obra nueva, este ascensor cuenta con seis paradas y una capacidad de 450 kg, su sistema Gearless de imanes permanentes, sin engranajes, garantiza un menor consumo de energía, rendimiento óptimo, desplazamiento eficiente y silencioso." ,
+            "date": "2025-02-03",
+            "location": "Avenida 3 Norte No. 7N-76, Cali",
+            "images": ["/img/projects/Edificación Nueva/doña-maria/doña-maria-1.jpeg", "/img/projects/Edificación Nueva/doña-maria/doña-maria-2.jpeg", "/img/projects/Edificación Nueva/doña-maria/doña-maria-3.jpeg"],
+
+            "category": "Edificación Nueva"
+        },
+        {
+            "name": "PLATINO",
+            "description": "Instalación de ascensor especial, con dispositivo de seguridad para proyección de ducto con foso no convencional.Este proyecto en edificación nueva, cuenta con 4 paradas, doble acceso a cabina y una capacidad de 630 kg",
+            "date": "2025-02-03",
+            "location": "Zona Valle del Lili",
+            "images": ["/img/projects/Edificación Nueva/platino/platino-1.jpg", "/img/projects/Edificación Nueva/platino/platino-2.jpg", "/img/projects/Edificación Nueva/platino/platino-3.jpg"],
+            "category": "Edificación Nueva"
+        },
+        {
+            "name": "Solevante",
+            "description": "Ascensor eléctrico Gearless, instalado en obra nueva, este equipo cuenta con 5 paradas y capacidad de 630 kg, doble acceso a cabina.Seguro, confortable y cabina con estilo elegante que se adapta al entorno.",
+            "date": "2025-02-03",
+            "location": "Av. 3ra Oeste Santa Teresita",
+            "images": ["/img/projects/Edificación Nueva/solevante/solevante-1.jpg", "/img/projects/Edificación Nueva/solevante/solevante-2.jpg","/img/projects/Edificación Nueva/solevante/solevante-3.jpg", "/img/projects/Edificación Nueva/solevante/solevante-4.jpg"],
+            "category": "Edificación Nueva"
+        },
+        {
+            "name": "Avenida 5 Norte",
+            "description": "Se llevó a cabo el cambio de cuadro de control, sistema eléctrico, botoneras de cabina y exteriores, cambio de operadores de puertas, modernización de cabina y embellecimiento de puertas.Este trabajo se realizó en ascensor existente, en un edificio de 8 pisos, 4 paradas, capacidad de carga 300 kg, se configuró cuadro de control para ocho paradas, pensando en un futuro cercano habilitar las paradas restantes. Con esta Modernización eléctrica, mejoró el confort del equipo y se redujeron los avisos por averías, además los usuarios se benefician de una cabina con un aspecto renovado y agradable. ",
+            "date": "2025-02-03",
+            "location": "Av. 5 Norte. # 17-39",
+            "images": ["/img/projects/Modernización/avenida-5-norte/avenida-5-norte-1.jpg"],
+            "category": "Modernización"
+        },
+        {
+            "name": "Palmar de Coomeva",
+            "description": "Se realizó repotenciación de nueve ascensores de 9 paradas;  cambio de motor, cables de tracción, control de maniobra, sistema eléctrico, botonera de cabina con indicador de voz para personas con movilidad reducida, botoneras exteriores con Display LCD, modernización de cabinas y adecuación a la norma, quedando con nueva tecnología y certificados de acuerdo a la norma 5926-1   Con estos trabajos, se garantizo el ahorro de energía, mejoró el confort y la eficiencia de los equipos.",
+            "date": "2025-02-03",
+            "location": "Carrera 57 No. 11A-50",
+            "images": ["/img/projects/Modernización/palmar-de-coomeva/palmar-de-coomeva-1.jpg","/img/projects/Modernización/palmar-de-coomeva/palmar-de-coomeva-2.jpg","/img/projects/Modernización/palmar-de-coomeva/palmar-de-coomeva-3.jpg","/img/projects/Modernización/palmar-de-coomeva/palmar-de-coomeva-4.jpg"],
+            "category": "Modernización"
+        },
+        {
+            "name": "Prados de Guadalupe",
+            "description": "Se realizó repotenciación de dos ascensores de 9 paradas;  cambio de motor, cables de tracción, control de maniobra, sistema eléctrico, botonera de cabina con indicador de voz para personas con movilidad reducida, botoneras exteriores con Display LCD, modernización de cabinas y adecuación a la norma, quedando con nueva tecnología y certificados de acuerdo a la norma 5926-1   Con estos trabajos, se garantizo el ahorro de energía, mejoró el confort y la eficiencia de los equipos.",
+            "date": "2025-02-03",
+            "location": "Autopista con Guadalupe",
+            "images": ["/img/projects/Modernización/prados-de-guadalupe/prados-de-guadalupe-1.jpg","/img/projects/Modernización/prados-de-guadalupe/prados-de-guadalupe-2.jpg","/img/projects/Modernización/prados-de-guadalupe/prados-de-guadalupe-3.jpg","/img/projects/Modernización/prados-de-guadalupe/prados-de-guadalupe-4.jpg"],
+            "category": "Modernización"
+        },
+        {
+            "name": "Caoba",
+            "description": "Ascensor de baja velocidad 0,15 m/seg, capacidad 320 Kg, 3 paradas,  ideal para uso preferencial por personas con movilidad reducida, se instaló en la zona social del conjunto.  proporcionando un transporte vertical seguro y accesible. Este proyecto está ubicado en la zona aledaña a la Universidad Autónoma.",
+            "date": "2025-02-03",
+            "location": "Calle 48 con Cra 108 (detrás de la U. Autónoma)",
+            "images": ["/img/projects/Soluciones de accesibilidad/caoba/caoba-1.jpg","/img/projects/Soluciones de accesibilidad/caoba/caoba-2.jpg","/img/projects/Soluciones de accesibilidad/caoba/caoba-3.jpg","/img/projects/Soluciones de accesibilidad/caoba/caoba-4.jpg"],
+            "category": "Soluciones de accesibilidad"
+        },
+        {
+            "name": "CASA LAGO CALIMA",
+            "description": "Ascensor de baja velocidad 0,15 m/seg, capacidad 320 Kg, 2 paradas, para uso de personas con movilidad reducida, se adaptó a la edificación existente, construyendo estructura metálica autoportante; Este proyecto está ubicado en zona Lago Calima.",
+            "date": "2025-02-03",
+            "location": "Av. Cañasgordas con Av. Chipayá, Ciudad Verde Alfaguara",
+            "images": ["/img/projects/Soluciones de accesibilidad/entrelago/entrelago-1.jpg","/img/projects/Soluciones de accesibilidad/entrelago/entrelago-2.jpg","/img/projects/Soluciones de accesibilidad/entrelago/entrelago-3.jpg","/img/projects/Soluciones de accesibilidad/entrelago/entrelago-4.jpg"],
+            "category": "Soluciones de accesibilidad"
+        },
+        {
+            "name": "CONJUNTO RESIDENCIAL ACUARELA II",
+            "description": "Ascensor de baja velocidad 0,15 m/seg, capacidad 320 Kg, 2 paradas,  ideal para uso preferencial por personas con movilidad reducida, se instaló en la zona social del conjunto.  proporcionando un transporte vertical seguro y accesible. Este proyecto está ubicado en la zona ciudad Pacifica.",
+            "date": "2025-02-03",
+            "location": "Av. Cañasgordas con Av. Chipayá, Ciudad Verde Alfaguara",
+            "images": ["/img/projects/Soluciones de accesibilidad/aquarella-ii/aquarella-ii-1.jpg","/img/projects/Soluciones de accesibilidad/aquarella-ii/aquarella-ii-2.jpg","/img/projects/Soluciones de accesibilidad/aquarella-ii/aquarella-ii-3.jpg","/img/projects/Soluciones de accesibilidad/aquarella-ii/aquarella-ii-4.jpg"],
+            "category": "Soluciones de accesibilidad"
+        },
+        {
+            "name": "EDIFICIO DACCACH",
+            "description": "Se realizó la sustitución total del ascensor en el edificio, reemplazando el antiguo ascensor, aun con puertas batientes y motor reductor, por un ascensor con nueva tecnología, Motor Gearless ecológico, garantizando el ahorro de energía;  este nuevo ascensor cuenta con 7 paradas, capacidad de 630 kg, cabina más amplia, puertas automáticas, velocidad 1 m/seg.  Este proyecto está ubicado en la zona centro de la ciudad de  Cali.",
+            "date": "2025-02-03",
+            "location": "Calle 10 8-40, Cali",
+            "images": ["/img/projects/Sustitución completa/daccach/daccach-1.jpg","/img/projects/Sustitución completa/daccach/daccach-2.jpg","/img/projects/Sustitución completa/daccach/daccach-3.jpg","/img/projects/Sustitución completa/daccach/daccach-1.jpg","/img/projects/Sustitución completa/daccach/daccach-4.jpg"],
+            "category": "Sustitución Total"
+        },
+        {
+            "name": "Hostal",
+            "description": "Se ejecutó la sustitución total de dos ascensores en el edificio existente. El proyecto incluyó el desmonte de los ascensores antiguos e instalación de nuevos ascensores de última tecnología, Motor Gearless de imanes permanentes, Cuadro de control inteligente, Capacidad de carga 450 kg, 10 paradas, Se optimizó la eficiencia y seguridad del sistema de transporte vertical, garantizando el ahorro en el consumo de energía.",
+            "date": "2025-02-03",
+            "location": "Carrera 57 #3-57, Cali",
+            "images": ["/img/projects/Sustitución completa/hostal/hostal-1.jpg","/img/projects/Sustitución completa/hostal/hostal-2.jpg","/img/projects/Sustitución completa/hostal/hostal-3.jpg"],
+            "category": "Sustitución Total"
+        },
+        {
+            "name": "Palacio Rosa",
+            "description": "Se realizó la sustitución total de los dos ascensores en el edificio, Cada ascensor cuenta con 8 paradas y una capacidad de 450 kg. Este proyecto incluye sistema de comunicación duplex entre ascensores para optimizar el tiempo de respuesta al llamado de los usuarios, cuenta con dispositivo especial en contrapeso, para la seguridad de usuarios tanto en cabina, como los que se desplazan por  el parqueadero subterráneo, en este proyecto se aprovechó el espacio disponible en el ducto, para instalar cabinas más amplias y confortables..",
+            "date": "2025-02-03",
+            "location": "Calle 12Nte #4N-17 Barrio Centenario, Cali",
+            "images": ["/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-1.jpg","/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-2.jpg","/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-3.jpg","/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-4.jpg"],
+            "category": "Sustitución Total"
+        }
+    ]
+}

@@ -1,5 +1,13 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { ClientRouter } from "astro:transitions";
+import "../styles/global.css";
+import Tooltip from "../components/Tooltip.astro";
+---
+
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -8,21 +16,18 @@
     <meta name="apple-mobile-web-app-title" content="EDEL'S GROUP" />
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="generator" content={Astro.generator} />
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"></script>
     <title>EDEL'S GROUP SAS</title>
+    <ClientRouter />
   </head>
   <body>
-    <slot />
+    <Header />
+    <Tooltip />
+    <main>
+      <slot />
+    </main>
+    <Footer />
   </body>
 </html>
-
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    font-family: "Nunito Sans", serif;
-  }
-</style>

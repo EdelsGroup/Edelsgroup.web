@@ -1,0 +1,74 @@
+.section__aboutUs {
+  position: relative;
+  min-height: 500px;
+  background-image: url("../assets/photos/imgParallax.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax__content {
+    background-color: hsla(238, 90%, 30%, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.section__aboutUs__content {
+  color: var(--secondary-color);
+  max-width:500px ;
+  padding: 20px;
+}
+
+.section__aboutUs__content--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__aboutUs__content--h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.section__aboutUs__content--p{
+    text-align: justify ;
+}
+
+
+.line-white{
+    display: block;
+    width: 100px;
+    height: 5px;
+    margin: 10px 0;
+    background-color: var(--secondary-color);
+}
+
+.section__aboutUs__content--link{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.section__aboutUs__content--lottie{
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 1080px){
+    .parallax__content{
+        flex-direction: column;
+        gap: 0;
+    }
+    .section__aboutUs__content {
+        margin-top: 50px;
+    }
+    .section__aboutUs__content--lottie{
+        width: 100%;
+        height: 500px;
+    }
+}
+

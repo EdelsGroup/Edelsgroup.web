@@ -1,0 +1,195 @@
+---
+import edelLogo from "../assets/logoWhiteBG.svg";
+import edelIsotipo from "../assets/IsotipoWhiteBG.svg";
+import "../styles/header.css";
+import BotButton from "./BotButton.astro";
+import TermsAndConditionsModal from "./TermsAndConditionsModal.jsx";
+import 'animate.css';
+---
+
+<header class="header">
+  <label class="header__hamburger ">
+    <input type="checkbox" />
+    <svg viewBox="0 0 32 32">
+      <path
+        class="line line-top-bottom header__hamburger--line header__hamburger--line-top-bottom"
+        d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+      ></path>
+      <path class="header__hamburger--line line" d="M7 16 27 16"></path>
+    </svg>
+    <div class="menu header__menu animate__animated animate__fadeIn animate__faster">
+      <ul>
+        <li class="header__menu--item">
+          <a href="/"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 20 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.41085 3.24417C9.56712 3.08795 9.77904 3.00018 10 3.00018C10.221 3.00018 10.4329 3.08795 10.5892 3.24417L15.5892 8.24417L17.2558 9.91084C17.4076 10.068 17.4916 10.2785 17.4897 10.497C17.4878 10.7155 17.4002 10.9245 17.2457 11.079C17.0912 11.2335 16.8822 11.3212 16.6637 11.3231C16.4452 11.325 16.2347 11.241 16.0775 11.0892L15.8333 10.845V16.3333C15.8333 16.7754 15.6578 17.1993 15.3452 17.5118C15.0326 17.8244 14.6087 18 14.1667 18H11.6667C11.4457 18 11.2337 17.9122 11.0774 17.7559C10.9211 17.5996 10.8333 17.3877 10.8333 17.1667V14.6667H9.16668V17.1667C9.16668 17.3877 9.07888 17.5996 8.9226 17.7559C8.76632 17.9122 8.55436 18 8.33335 18H5.83335C5.39132 18 4.9674 17.8244 4.65484 17.5118C4.34228 17.1993 4.16668 16.7754 4.16668 16.3333V10.845L3.92251 11.0892C3.76535 11.241 3.55484 11.325 3.33635 11.3231C3.11785 11.3212 2.90884 11.2335 2.75433 11.079C2.59982 10.9245 2.51218 10.7155 2.51029 10.497C2.50839 10.2785 2.59238 10.068 2.74418 9.91084L4.41085 8.24417L9.41085 3.24417Z"
+                fill="#8F97AB"></path>
+            </svg>INICIO</a
+          >
+        </li>
+        <li class="header__menu--item">
+          <a href="/nosotros"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 9H11V7H13M13 17H11V11H13M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 14.6522 3.05357 17.1957 4.92893 19.0711C5.85752 19.9997 6.95991 20.7362 8.17317 21.2388C9.38642 21.7413 10.6868 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"
+                fill="#8F97AB"></path>
+            </svg> NOSOTROS</a
+          >
+        </li>
+        <li class="header__menu--item">
+          <a href="/projects/projects"
+            ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 21C3.45 21 2.97933 20.8043 2.588 20.413C2.19667 20.0217 2.00067 19.5507 2 19V8C2 7.45 2.196 6.97933 2.588 6.588C2.98 6.19667 3.45067 6.00067 4 6H8V4C8 3.45 8.196 2.97933 8.588 2.588C8.98 2.19667 9.45067 2.00067 10 2H14C14.55 2 15.021 2.196 15.413 2.588C15.805 2.98 16.0007 3.45067 16 4V6H20C20.55 6 21.021 6.196 21.413 6.588C21.805 6.98 22.0007 7.45067 22 8V19C22 19.55 21.8043 20.021 21.413 20.413C21.0217 20.805 20.5507 21.0007 20 21H4ZM10 6H14V4H10V6Z"
+                fill="#8F97AB"></path>
+            </svg>PROYECTOS</a
+          >
+        </li>
+      </ul>
+    </div>
+  </label>
+  <div class="header__container">
+    <a href="/" class="header__logo">
+      <img
+        class="header__logo--img"
+        src={edelLogo.src}
+        alt="Logo de ASCENSORES EDEL'S GROUP SAS"
+      />
+      <img
+        class="header__logo--isotipo"
+        src={edelIsotipo.src}
+        alt="Logo de ASCENSORES EDEL'S GROUP SAS"
+      />
+    </a>
+    <nav class="header__nav">
+      <ul class="header__nav--list">
+        <li class="header__nav--list-item">
+          <a href="/">
+            <svg
+              width="20"
+              height="21"
+              viewBox="0 0 20 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9.41085 3.24417C9.56712 3.08795 9.77904 3.00018 10 3.00018C10.221 3.00018 10.4329 3.08795 10.5892 3.24417L15.5892 8.24417L17.2558 9.91084C17.4076 10.068 17.4916 10.2785 17.4897 10.497C17.4878 10.7155 17.4002 10.9245 17.2457 11.079C17.0912 11.2335 16.8822 11.3212 16.6637 11.3231C16.4452 11.325 16.2347 11.241 16.0775 11.0892L15.8333 10.845V16.3333C15.8333 16.7754 15.6578 17.1993 15.3452 17.5118C15.0326 17.8244 14.6087 18 14.1667 18H11.6667C11.4457 18 11.2337 17.9122 11.0774 17.7559C10.9211 17.5996 10.8333 17.3877 10.8333 17.1667V14.6667H9.16668V17.1667C9.16668 17.3877 9.07888 17.5996 8.9226 17.7559C8.76632 17.9122 8.55436 18 8.33335 18H5.83335C5.39132 18 4.9674 17.8244 4.65484 17.5118C4.34228 17.1993 4.16668 16.7754 4.16668 16.3333V10.845L3.92251 11.0892C3.76535 11.241 3.55484 11.325 3.33635 11.3231C3.11785 11.3212 2.90884 11.2335 2.75433 11.079C2.59982 10.9245 2.51218 10.7155 2.51029 10.497C2.50839 10.2785 2.59238 10.068 2.74418 9.91084L4.41085 8.24417L9.41085 3.24417Z"
+                fill="#080C92"></path>
+            </svg>
+          </a>
+        </li>
+        /
+        <li class="header__nav--list-item"><a href="/nosotros">NOSOTROS</a></li>
+        /
+        <li class="header__nav--list-item">
+          <a href="/projects/projects"
+            >PROYECTOS <svg
+              width="20"
+              height="20"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.375 6.25L7.5 9.375L10.625 6.25"
+                stroke="#8F97AB"
+                stroke-width="1.5625"
+                stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+          </a>
+          <div class="header__nav--dropdown">
+            <a href="/projects/projects/#Edificación Nueva">Edificación Nueva</a
+            >
+            <a href="/projects/projects/#Edificación Existente"
+              >Edificacion Existente</a
+            >
+            <a href="/projects/projects/#Sustitución Completa"
+              >Sustitución Completa</a
+            >
+            <a href="/projects/projects/#Soluciones de accesibilidad"
+              >Soluciones de accesibilidad</a
+            >
+            <a href="/projects/projects/#Modernización">Modernización</a>
+          </div>
+        </li>
+        <!-- /
+        <li class="header__nav--list-item">
+          <a href="/"
+            >SERVICIOS <svg
+              width="20"
+              height="20"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.375 6.25L7.5 9.375L10.625 6.25"
+                stroke="#8F97AB"
+                stroke-width="1.5625"
+                stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+          </a>
+          <div class="header__nav--dropdown">
+            <a href="/">Equipo de elevación vertical</a>
+            <a href="/">Mantenimiento</a>
+            <a href="/p">Accesoria técnica </a>
+          </div>
+        </li> -->
+        /
+        <li class="header__nav--list-item">
+          <a
+            >CONTACTO <svg
+              width="20"
+              height="20"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.375 6.25L7.5 9.375L10.625 6.25"
+                stroke="#8F97AB"
+                stroke-width="1.5625"
+                stroke-linecap="round"
+                stroke-linejoin="round"></path>
+            </svg>
+          </a>
+          <div class="header__nav--dropdown">
+            <a href="/">Facebook</a>
+            <a href="/">Instagram</a>
+            <a href="/">Whatsapp</a>
+          </div>
+        </li>
+        /
+        <TermsAndConditionsModal client:only="react" />
+      </ul>
+    </nav>
+  </div>
+  <div class="header__cta">
+    <BotButton />
+  </div>
+</header>

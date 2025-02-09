@@ -1,0 +1,19 @@
+---
+import "../styles/slider.css";
+import { clients } from "../clients/clients.json";
+---
+
+<div class="slider">
+  <div class="slide-track">
+    {
+      [...clients, ...clients].map((client) => (
+        <div class="slide">
+          <div class="slide-circle" style={{ backgroundColor: client.color }}>
+            {client.initial}
+          </div>
+          <span class="slide-text">{client.name}</span>
+        </div>
+      ))
+    }
+  </div>
+</div>

@@ -1,0 +1,12 @@
+---
+import "../styles/secondaryButton.css";
+
+const { href, className } = Astro.props;
+---
+
+<a
+  class={`button__secondary ${className}`}
+  href={href}
+>
+  <slot/>
+</a>

@@ -1,0 +1,36 @@
+.button_modal {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(30deg, #080c92, #4e63e6);
+  border-radius: 20px;
+  background-size: 100% auto;
+  padding: 10px 20px;
+}
+
+.button_modal:hover {
+    background-position: right center;
+    background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #05bada66;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+}
+
+.ant-modal-body{
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+}

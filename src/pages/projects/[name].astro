@@ -1,0 +1,23 @@
+---
+// Obtenemos el parámetro de la URL desde Astro
+import { getProject } from "../../services/getProjects";
+import { projects } from "../../projects/projects.json";
+import Layout from "../../layouts/Layout.astro";
+import "../../styles/sectionGallery.css";
+import Gallery from "../../components/Gallery";
+
+export function getStaticPaths() {
+  return projects.map((project) => ({
+    params: { name: project.name },
+  }));
+}
+
+// `Astro.params` solo está disponible en el contexto del script de Astro
+const project = getProject(Astro.params.name);
+
+console.log(project)
+---
+
+<Layout>
+    <Gallery client:load project={project}/>
+</Layout>

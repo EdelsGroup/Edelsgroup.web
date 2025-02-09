@@ -1,0 +1,13 @@
+---
+import "../styles/MainButton.css";
+
+const { href, className } = Astro.props;
+---
+
+<a
+  target="_blank"
+  class={`button__main ${className}`}
+  href={href}
+>
+  <slot/>
+</a>

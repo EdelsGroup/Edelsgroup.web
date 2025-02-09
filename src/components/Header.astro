@@ -100,7 +100,7 @@ import "animate.css";
     <nav class="header__nav">
       <ul class="header__nav--list">
         <li class="header__nav--list-item">
-          <a href="/">
+          <a href="/" aria-label="Link para volver al inicio">
             <svg
               width="20"
               height="21"
@@ -177,22 +177,21 @@ import "animate.css";
         </li> -->
         /
         <li class="header__nav--list-item">
-          <a
-            >CONTACTO <svg
-              width="20"
-              height="20"
-              viewBox="0 0 15 15"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4.375 6.25L7.5 9.375L10.625 6.25"
-                stroke="#8F97AB"
-                stroke-width="1.5625"
-                stroke-linecap="round"
-                stroke-linejoin="round"></path>
-            </svg>
-          </a>
+          CONTACTO <svg
+            width="20"
+            height="20"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.375 6.25L7.5 9.375L10.625 6.25"
+              stroke="#8F97AB"
+              stroke-width="1.5625"
+              stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+
           <div class="header__nav--dropdown">
             <a href="/">Facebook</a>
             <a href="/">Instagram</a>
@@ -200,7 +199,9 @@ import "animate.css";
           </div>
         </li>
         /
-        <TermsAndConditionsModal client:only="react" />
+        <TermsAndConditionsModal className="" client:only="react">
+          {null}
+        </TermsAndConditionsModal>
       </ul>
     </nav>
   </div>

@@ -160,6 +160,7 @@
   position: relative;
   cursor: pointer;
   transition: 0.3s;
+  display: flex;
 }
 
 .header__nav--list-item a {

@@ -12,10 +12,7 @@ export function getStaticPaths() {
   }));
 }
 
-// `Astro.params` solo está disponible en el contexto del script de Astro
 const project = getProject(Astro.params.name);
-
-console.log(project)
 ---
 
 <Layout>

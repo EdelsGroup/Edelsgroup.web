@@ -13,6 +13,5 @@ export const getSixProjects = () => {
 }
 
 export const getProjectsByCategory = (category) => {
-    console.log(projects.category);
     return projects.filter(project => project.category === category);
 }

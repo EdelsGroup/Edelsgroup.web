@@ -11,43 +11,51 @@ import { getProjectsByCategory } from "../../services/getProjects";
 const newConstruccion = getProjectsByCategory("Edificación Nueva");
 const oldConstruccion = getProjectsByCategory("Edificación Existente");
 const totalReplacement = getProjectsByCategory("Sustitución Total");
-const accessibilitySolutions = getProjectsByCategory("Soluciones de accesibilidad");
+const accessibilitySolutions = getProjectsByCategory(
+  "Soluciones de accesibilidad"
+);
 const modernization = getProjectsByCategory("Modernización");
-
-
-console.log(newConstruccion);
-console.log(oldConstruccion);
-
-
 ---
 
 <Layout>
-  <section class="section__projects section__newConstruction" id="Edificación Nueva">
+  <section
+    class="section__projects section__newConstruction"
+    id="Edificación Nueva"
+  >
     <Title text="Edificación Nueva" />
-    
-    <Carousel projects={newConstruccion}  client:only="react" />
+
+    <Carousel projects={newConstruccion} client:only="react" />
   </section>
-  
-  <section class="section__projects section__oldConstruction" id="Edificación Existente">
+
+  <section
+    class="section__projects section__oldConstruction"
+    id="Edificación Existente"
+  >
     <Title text="Edificación Existente" />
-    
-    <Carousel projects={oldConstruccion}  client:only="react" />
+
+    <Carousel projects={oldConstruccion} client:only="react" />
   </section>
-  
-  <section class="section__projects section__oldConstruction" id="Sustitución Completa">
+
+  <section
+    class="section__projects section__oldConstruction"
+    id="Sustitución Completa"
+  >
     <Title text="Sustitución Completa" />
-    
-    <Carousel projects={totalReplacement}  client:only="react" />
+
+    <Carousel projects={totalReplacement} client:only="react" />
   </section>
-  
-  <section class="section__projects section__oldConstruction" id="Soluciones de accesibilidad">
+
+  <section
+    class="section__projects section__oldConstruction"
+    id="Soluciones de accesibilidad"
+  >
     <Title text="Soluciones de accesibilidad" />
-    
-    <Carousel projects={accessibilitySolutions}  client:only="react" />
+
+    <Carousel projects={accessibilitySolutions} client:only="react" />
   </section>
   <section class="section__projects section__modernization" id="Modernización">
     <Title text="Modernización" />
-    
-    <Carousel projects={modernization}  client:only="react" />
+
+    <Carousel projects={modernization} client:only="react" />
   </section>
 </Layout>

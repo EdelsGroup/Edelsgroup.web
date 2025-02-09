@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Button, Modal } from "antd";
+import { Modal } from "antd";
 import "../styles/TermsAndConditionsModal.css";
 
-const TermsAndConditionsModal = () => {
+const TermsAndConditionsModal = ({className="", children}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const showModal = () => {
@@ -19,7 +19,8 @@ const TermsAndConditionsModal = () => {
 
   return (
     <>
-      <li class="header__menu--item" onClick={showModal}>
+      <li class={`header__menu--item ${className}`} onClick={showModal}>
+        {children}
         POLITICA DE PRIVACIDAD
       </li>
       <Modal

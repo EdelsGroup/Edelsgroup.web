@@ -88,7 +88,32 @@
   border-color: #2563eb;
 }
 
+.gallery__nav-button{
+  background-color: var(--light-grey);
+  color: var(--primary-color);
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 230px;
+  z-index: 10;
+}
+
+.gallery__nav-button--right{
+  right: 0;
+}
+
+.gallery_group__main{
+  position: relative;
+  width: 500px;
+}
+
 @media screen and (max-width: 1080px){
+  .gallery_group__main{
+    position: relative;
+    width: 100%;
+  }
   .ant-image-img{
     height: 400px !important; 
   }

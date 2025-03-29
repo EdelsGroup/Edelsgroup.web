@@ -1,11 +1,11 @@
 ---
 import "../styles/MainButton.css";
 
-const { href, className } = Astro.props;
+const { href, className, _blank } = Astro.props;
 ---
 
 <a
-  target="_blank"
+  target={_blank ? "_blank" : "_self"}
   class={`button__main ${className}`}
   href={href}
 >

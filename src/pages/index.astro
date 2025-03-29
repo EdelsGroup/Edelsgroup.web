@@ -21,23 +21,23 @@ import { projects } from "../projects/projects.json";
 
 <Layout>
   <section class="section__main">
-    <img class="section__main--svg" src={separator.src} alt="" />
-    <img class="section__main--img" src={photoMain.src} alt="a" />
-    <div class="section__main__text">
-      <p class="section__main__text--title">
+    <img class="section__main--svg animate__animated animate__fadeInTopLeft" src={separator.src} alt="" />
+    <img class="section__main--img animate__animated animate__fadeInTopRight" src={photoMain.src} alt="a" />
+    <div class="section__main__text animate__animated animate__lightSpeedInLeft">
+      <p class="section__main__text--title ">
         "Elevamos tu confianza,<br />
         garantizamos tu seguridad."
       </p>
       <div class="section__main__text__links">
         <SecondaryButton href="/nosotros">Sobre Nosotros</SecondaryButton>
-        <MainButton href="https://api.whatsapp.com/send/?phone=3183119003"
+        <MainButton _blank href="https://api.whatsapp.com/send/?phone=3183119003"
           >Contactanos</MainButton
         >
       </div>
     </div>
   </section>
 
-  <section class="section__services">
+  <section class="section__services animate__animated animate__bounceInUp">
     <Title text="Nuestros Servicios" />
     <div class="section__services__cards">
       <div class="section__services__cards__card">

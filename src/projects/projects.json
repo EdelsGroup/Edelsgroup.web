@@ -102,7 +102,7 @@
             "description": "Se realizó la sustitución total del ascensor en el edificio, reemplazando el antiguo ascensor, aun con puertas batientes y motor reductor, por un ascensor con nueva tecnología, Motor Gearless ecológico, garantizando el ahorro de energía;  este nuevo ascensor cuenta con 7 paradas, capacidad de 630 kg, cabina más amplia, puertas automáticas, velocidad 1 m/seg.  Este proyecto está ubicado en la zona centro de la ciudad de  Cali.",
             "date": "2025-02-03",
             "location": "Calle 10 8-40, Cali",
-            "images": ["/img/projects/Sustitución completa/daccach/daccach-1.jpg","/img/projects/Sustitución completa/daccach/daccach-2.jpg","/img/projects/Sustitución completa/daccach/daccach-3.jpg","/img/projects/Sustitución completa/daccach/daccach-1.jpg","/img/projects/Sustitución completa/daccach/daccach-4.jpg"],
+            "images": ["/img/projects/Sustitución completa/daccach/daccach-1.jpg","/img/projects/Sustitución completa/daccach/daccach-2.jpg","/img/projects/Sustitución completa/daccach/daccach-3.jpg", "/img/projects/Sustitución completa/daccach/daccach-4.jpg"],
             "category": "Sustitución Total"
         },
         {
@@ -119,6 +119,14 @@
             "date": "2025-02-03",
             "location": "Calle 12Nte #4N-17 Barrio Centenario, Cali",
             "images": ["/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-1.jpg","/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-2.jpg","/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-3.jpg","/img/projects/Sustitución completa/palacio-rosa/palacio-rosa-4.jpg"],
+            "category": "Sustitución Total"
+        },
+        {
+            "name": "Edificio Delta",
+            "description": "Se realizó la sustitución total de un ascensor en el edificio Delta1 reemplazando el antiguo ascensor, aun con puertas batientes y motor reductor, por un ascensor con nueva tecnología, Motor Gearless ecológico, garantizando el ahorro de energía; este nuevo ascensor cuenta con 11 paradas, capacidad de 800 kg, cabina más amplia, puertas automáticas, velocidad 1,75 m/seg. Este proyecto está ubicado en la avenida 4 norte de la ciudad de Cali.",
+            "date": "2025-02-03",
+            "location": "Av. 4 Nte. #8 Norte-14, Granada, Cali",
+            "images": ["/img/projects/Sustitución completa/delta/delta-1.jpg","/img/projects/Sustitución completa/delta/delta-2.jpg", "/img/projects/Sustitución completa/delta/delta-3.jpg","/img/projects/Sustitución completa/delta/delta-4.jpg", "/img/projects/Sustitución completa/delta/delta-5.jpg"],   
             "category": "Sustitución Total"
         }
     ]

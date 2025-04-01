@@ -55,7 +55,7 @@ const TermsAndConditionsModal = ({className="", children}) => {
           <li>NIT: 900.722.547-1</li>
           <li>Dirección: Carrera 65 No. 12A-76</li>
           <li>Teléfono: 3186925825</li>
-          <li>Correo Electrónico: notificaciones.edel@gmail.com</li>
+          <li>Correo Electrónico: gerencia.edelsgroup@gmail.com</li>
         </ul>
         <br />
         <br />

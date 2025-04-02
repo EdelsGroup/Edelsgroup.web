@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Image } from "antd";
+import { Image, Watermark } from "antd";
 import "../styles/sectionGallery.css";
 
 export default function Gallery({ project }) {
@@ -58,7 +58,9 @@ export default function Gallery({ project }) {
             </svg>
           </button>
           <div className="gallery__main-image">
+          <Watermark height={30} width={130} content="Edel's Group" font={{color: 'rgba(255,2555,255,0.5)', fontSize: 20, fontFamily: 'Nunito Sans'}}>
             <Image src={selectedImage} alt={project.name} />
+          </Watermark>
           </div>
           <button
             className="gallery__nav-button gallery__nav-button--right"

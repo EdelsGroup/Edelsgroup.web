@@ -254,6 +254,7 @@ import { projects } from "../projects/projects.json";
           .slice(0, 6)
           .map((project, index) => (
             <CardFlip
+              client:only="react"
               src={project.images[0]}
               title={project.name}
               text={project.description}
